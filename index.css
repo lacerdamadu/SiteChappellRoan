@@ -1,0 +1,197 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: #FFF;
+    color: #000;
+    font-family: 'Open Sans', serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-sizing: border-box;
+}
+p{
+    font-size: 18px;
+}
+
+h1{
+    color: #000;
+    font-family: "Shrikhand", serif;
+    font-size: 30px;
+    font-optical-sizing: auto;
+    text-align: left;
+}
+main{
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-self: center;
+}
+
+.imagem1{
+    width: 416px;
+    border: 30px solid#a41a26;
+    border-radius: 5px;
+}
+
+.imagem2{
+    width: 500px;
+    border: 30px solid #591611;
+    border-radius: 10px;
+}
+
+
+h2{
+    color: #000;
+    font-family: "Shrikhand", serif;
+    font-size: 30px;
+    font-optical-sizing: auto;
+    text-align: center;
+}
+.container{
+    padding: 0;
+    background-color: #e7ffd0;
+    size-adjust: small;
+}
+.box2{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 10px;
+    align-self: center;
+}
+.texto1{
+    width: 50px;
+    text-align: left;
+    background-color: #a41a26;
+    color: #FFF;
+}
+.imagem3{
+    width: 100px;
+    border: 10px solid #591611;
+    border-radius: 10px;
+    align-self: right;
+}
+
+
+.container2{
+    padding: 0;
+    background-color: #ffd5d5;
+}
+.box3{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 20px;
+    align-self: center;
+}
+.texto2{
+    width: 50%;
+    text-align: left;
+    background-color: #a41a26;
+    color: #FFF;
+}
+.imagem4{
+    width: 300x;
+    border: 15px solid #ff8888;
+    border-radius: 10px;
+    align-self: right;
+}
+
+.box4{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 20px;
+}
+
+.GoodLuck{
+    width: 90%;
+    background-color: #ff8888;
+    border-radius: 10px;
+}
+.PinkPonyClub{
+    width: 90%;
+    background-color: #e7ffd0;
+    border-radius: 10px;
+}
+.HOTTOGO{
+    width: 90%;
+    background-color: #ff8888;
+    border-radius: 10px;
+}
+.CASUAL{
+    width: 90%;
+    background-color: #e7ffd0;
+    border-radius: 10px;
+}
+
+nav{
+    background-color: #f88a16;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 10px;
+    list-style: none;
+    padding: 10px;
+}
+
+nav img{
+    margin-left: 130px;
+}
+
+nav .links{
+    margin-right: 150px;
+}
+
+nav p{
+    margin-left: -700px;
+}
+
+.links a:active,
+.links a:hover {
+    color: #0000;
+    text-shadow: 0px 0px 10px #ae5a15;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer{
+    background-color: #faab58;
+    width: 100%;
+}
+
+footer img{
+    margin: 0 auto;
+    display: block;
+    height: 40px;
+}
